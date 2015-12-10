@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -113,7 +112,7 @@ Instructions are available on the <a href="https://nips.cc/">NIPS web site</a>. 
 		</div>
         <div class="col-md-4"> Nati Srebro (TTI / Chicago)
 		</div>
-        <div class="col-md-6">
+        <div class="col-md-6">Learning, Stability and Strong Convexity
 		</div>
 	  </div>
 
@@ -158,7 +157,7 @@ Instructions are available on the <a href="https://nips.cc/">NIPS web site</a>. 
 		</div>
         <div class="col-md-4">Jonathan Ullman (Northeastern)
 		</div>
-	<div class="col-md-6">Barriers to Preventing False Discovery in Interactive Data Analysis
+	<div class="col-md-6"><a href="#ullman">Barriers to Preventing False Discovery in Interactive Data Analysis</a>
 		</div>
 	  </div>
 
@@ -236,7 +235,7 @@ Instructions are available on the <a href="https://nips.cc/">NIPS web site</a>. 
 		</div>
         <div class="col-md-4">Andrew Gelman (Columbia)
 		</div>
-        <div class="col-md-6">
+        <div class="col-md-6">The Statistical Crisis in Science
 		</div>
 	  </div>
 
@@ -296,8 +295,27 @@ Cynthia Dwork, Dean Foster, Eric Loken, Ohad Shamir
 </div>
    	
    	
+<div class="container" style="font-size:14pt">
+    <h2><a name="ullman"></a>Jonathan Ullman (Northeastern)</h2>
+    <h3>Barriers to preventing false discovery in interactive data analysis</h3>
 
+    <br>
+    
+<!-- Bootstrap core JavaScript
+    <center><a class="btn btn-default" href="slidesURL" role="button">Slides</a></center>
+-->
+    <br>
+<P>We show that, under a standard hardness assumption, there is no computationally efficient algorithm that given n samples from an unknown distribution can give valid answers to more than O(n^2) adaptively chosen statistical queries. A statistical query asks for the expectation of a predicate over the underlying distribution, and an answer to a statistical query is valid if it is "close" to the correct expectation over the distribution.  We also show an analogous result when the algorithm may be computationally unbounded but the data is very high dimensional.</P>
 
+<P>Our result stands in stark contrast to the well known fact that exponentially many statistical queries can be answered validly and efficiently if the queries are chosen non-adaptively (no query may depend on the answers to previous queries). Moreover, Dwork et al. and Bassily et al., showed how to accurately answer exponentially many adaptively chosen statistical queries via a computationally inefficient algorithm. They also gave efficient algorithm that can answer nearly n^2 adaptively chosen queries, which shows our result is almost quantitatively tight.</P>
+
+<P>Conceptually, our result demonstrates that achieving statistical validity alone can be a source of computational intractability in adaptive settings. For example, in the modern large collaborative research environment, data analysts typically choose a particular approach based on previous findings. False discovery occurs if a research finding is supported by the data but not by the underlying distribution. While the study of preventing false discovery in Statistics is decades old, to the best of our knowledge our result is the first to demonstrate a computational barrier. In particular, our result suggests that the perceived difficulty of preventing false discovery in today's collaborative research environment may be inherent. </P>
+
+<P>This talk is based on joint work with Moritz Hardt and Thomas Steinke and conversations with Adam Smith.</P>
+
+</div>
+
+   	
 
 
     <!-- Bootstrap core JavaScript
