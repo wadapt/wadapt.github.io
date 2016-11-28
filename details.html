@@ -79,7 +79,7 @@
 
       <div class="row">
         <div class="col-md-12" style="text-align:center;background-color:#eee;padding:15px;">
-		Morning Session (8:55am &ndash; 12:10am)
+		Morning Session (8:55am &ndash; 12:00pm)
 		</div>
 	  </div>
 
@@ -97,13 +97,15 @@
         <div class="col-md-2">
 		9:00-9:35
 		</div>
-        <div class="col-md-4"> Emmanuel Candès (Stanford)
+        <div class="col-md-4">Ruth Heller (Tel Aviv U.)
 		</div>
-        <div class="col-md-6"><a href="#candes">Model-free knockoffs: statistical tools for reproducible selections</a>
-		  <!-- Bootstrap core JavaScript 
-		  <a class="btn btn-default btn-sm" href="slides/candes.pdf" role="button">Slides</a> -->
+		<div class="col-md-6"><a href="#heller">Inference following aggregate level hypothesis testing in large scale genomic data</a>
+		  <!-- Bootstrap core JavaScript
+		  <a class="btn btn-default btn-sm" href="slides/heller.pdf" role="button">Slides</a>-->
 		</div>
 	  </div>
+
+
 
       <div class="row">
         <div class="col-md-2">
@@ -111,8 +113,8 @@
 		</div>
         <div class="col-md-4"> Weijie Su (Penn)
 		</div>
-        <div class="col-md-6"> TBA
-		  <!-- Bootstrap core JavaScript 
+        <div class="col-md-6"> <a href="#wsu"> Private false discovery rate control and robustness of the Benjamini-Hochberg procedure </a>
+		  <!-- Bootstrap core JavaScript
 		  <a class="btn btn-default btn-sm" href="slides/wsu.pdf" role="button">Slides</a> -->
 		</div>
 	  </div>
@@ -143,9 +145,9 @@
 
       <div class="row">
         <div class="col-md-2">
-		10:50-12:10
+		10:50-12:00
 		</div>
-        <div class="col-md-4"> Xiaoying Tian Harris, Ibrahim Alabdulmohsin, Joshua Loftus, Yu-Xiang Wang, Sam Elder, Aaditya Ramdas, Ryan Rogers
+        <div class="col-md-4"> Ibrahim Alabdulmohsin, Joshua Loftus, Yu-Xiang Wang, Sam Elder, Aaditya Ramdas, Ryan Rogers
 		</div>
         <div class="col-md-6"><a href="#short">Short talks</a>
 
@@ -176,7 +178,7 @@
 		</div>
 		<div class="col-md-6">
 		  <a href="#ligett">Adaptive Learning with Robust Generalization Guarantees</a>
-		  <!-- Bootstrap core JavaScript 
+		  <!-- Bootstrap core JavaScript
 		  <a class="btn btn-default btn-sm" href="slides/foygel.pdf" role="button">Slides</a> -->
 		</div>
 	  </div>
@@ -188,7 +190,7 @@
         <div class="col-md-4">Kobbi Nissim (Harvard/Georgetown)
 		</div>
         <div class="col-md-6"> TBA
-	  <!-- Bootstrap core JavaScript 
+	  <!-- Bootstrap core JavaScript
 	  <a class="btn btn-default btn-sm" href="slides/fithian.pdf" role="button">Slides</a> -->
 	</div>
 	  </div>
@@ -198,10 +200,10 @@
 		3:40-3:50
 		</div>
         <div class="col-md-4">
-		TBA
+		Aaditya Ramdas
 		</div>
 	<div class="col-md-6">Discussion
-	  <!-- Bootstrap core JavaScript 
+	  <!-- Bootstrap core JavaScript
 	  <a class="btn btn-default btn-sm btn-sm" href="slides/zou.pdf" role="button">Slides</a> -->
 		</div>
 
@@ -209,7 +211,7 @@
 
 	<div class="row" style="background-color:#aba;">
         <div class="col-md-2">
-		3:50-4:40
+		3:50-4:35
 		</div>
         <div class="col-md-10">
 		Poster break
@@ -218,16 +220,27 @@
 
       <div class="row">
         <div class="col-md-2">
-		4:40-5:15
+		4:35-4:55
 		</div>
-        <div class="col-md-4">Ruth Heller (Tel Aviv U.)
+        <div class="col-md-4"> Lucas Janson (Stanford)
 		</div>
-		<div class="col-md-6"><a href="#heller">Inference following aggregate level hypothesis testing in large scale genomic data</a>
-		  <!-- Bootstrap core JavaScript 
-		  <a class="btn btn-default btn-sm" href="slides/heller.pdf" role="button">Slides</a>-->
+        <div class="col-md-6"><a href="#janson">Model-free knockoffs: statistical tools for reproducible selections</a>
+		  <!-- Bootstrap core JavaScript
+		  <a class="btn btn-default btn-sm" href="slides/candes.pdf" role="button">Slides</a> -->
 		</div>
 	  </div>
 
+      <div class="row">
+        <div class="col-md-2">
+		4:55-5:15
+		</div>
+        <div class="col-md-4"> Xiaoying Tian Harris (Stanford)
+		</div>
+        <div class="col-md-6"><a href="#harris">From Selective Inference to Adaptive Data Analysis</a>
+		  <!-- Bootstrap core JavaScript
+		  <a class="btn btn-default btn-sm" href="slides/candes.pdf" role="button">Slides</a> -->
+		</div>
+	  </div>
       <div class="row">
         <div class="col-md-2">
 		5:15-5:50
@@ -235,7 +248,7 @@
         <div class="col-md-4">Peter Grunwald (CWI/Leiden U.)
 		</div>
 		<div class="col-md-6"><a href="#grunwald">An Adaptive Alternative to p-value-based testing</a>
-		  <!-- Bootstrap core JavaScript 
+		  <!-- Bootstrap core JavaScript
 		  <a class="btn btn-default btn-sm" href="slides/grunwald.pdf" role="button">Slides</a> -->
 		</div>
 	  </div>
@@ -259,8 +272,39 @@
 
 <h1 class="featurette-heading extra-space">Abstracts</h1>
 
+
+   	
 <div class="container" style="font-size:14pt">
-    <h2><a name="candes"></a>Emmanuel Candès (Stanford)</h2>
+    <h2><a name="heller"></a>Ruth Heller (Tel Aviv University)</h2>
+    <h3>Inference following aggregate level hypothesis testing in large scale genomic data</h3>
+
+    <br>
+
+  <P>In many genomic applications, it is common to perform tests using aggregate-level statistics within naturally defined classes for powerful identification of signals. Following aggregate-level testing, it is naturally of interest to infer on the individual units that are within classes that contain signal. Failing to account for class selection will produce biased inference. We develop multiple testing procedures that allow rejection of individual level null hypotheses while controlling for conditional (familywise or false discovery) error rates.  We use simulation studies to illustrate validity and power of the proposed procedures in comparison to several possible alternatives. We illustrate the usefulness of our procedures in a natural application involving whole-genome expression quantitative trait loci (eQTL) analysis across 17 tissue types using data from The Cancer Genome Atlas (TCGA) Project.
+</P>
+
+<P>Joint work with Nilanjan Chatterjee, Abba Krieger, and Jianxin Shi.</P>
+
+</div>
+
+<div class="container" style="font-size:14pt">
+    <h2><a name="wsu"></a> Weijie Su (Penn)</h2>
+    <h3>Private false discovery rate control and robustness of the Benjamini-Hochberg procedure</h3>
+
+    <p>We provide the first differentially private algorithms for controlling the false discovery rate (FDR) in multiple hypothesis testing. Our general approach is to adapt a well-known variant of the Benjamini-Hochberg procedure (BHq), making each step differentially private. This destroys the classical proof of FDR control. To prove FDR control of our method, we develop a new proof of the original (non-private) BHq algorithm and its robust variants -- a proof requiring only the assumption that the true null test statistics are independent, allowing for arbitrary correlations between the true nulls and false nulls. This assumption is fairly weak compared to those previously shown in the vast literature on this topic, and explains in part the empirical robustness of BHq.</p>
+</div>
+
+<div class="container" style="font-size:14pt">
+    <h2><a name="ligett"></a>Katrina Ligett (Caltech/ Hebrew University)</h2>
+    <h3>Adaptive Learning with Robust Generalization Guarantees</h3>
+
+
+    <p>The traditional notion of generalization --- i.e., learning a hypothesis whose empirical error is close to its true error --- is surprisingly brittle. As has recently been noted, even if several algorithms have this guarantee in isolation, the guarantee need not hold if the algorithms are composed adaptively. In this paper, we study three notions of generalization ---increasing in strength--- that are robust to post-processing and amenable to adaptive composition, and examine the relationships between them. </p>
+
+</div>
+
+<div class="container" style="font-size:14pt">
+    <h2><a name="janson"></a>Lucas Janson (Stanford)</h2>
     <h3>Model-free knockoffs: statistical tools for reproducible selections</h3>
 
     <p>A common problem in modern statistical applications is to select,
@@ -289,29 +333,25 @@ disease in the United Kingdom, making twice as many discoveries
 as the original analysis of the same data. </p>
 </div>
 
-
 <div class="container" style="font-size:14pt">
-    <h2><a name="ligett"></a>Katrina Ligett (Caltech/ Hebrew University)</h2>
-    <h3>Adaptive Learning with Robust Generalization Guarantees</h3>
+    <h2><a name="harris"></a> Xiaoying Tian Harris (Stanford)</h2>
+    <h3>From Selective Inference to Adaptive Data Analysis</h3>
 
-
-    <p>The traditional notion of generalization --- i.e., learning a hypothesis whose empirical error is close to its true error --- is surprisingly brittle. As has recently been noted, even if several algorithms have this guarantee in isolation, the guarantee need not hold if the algorithms are composed adaptively. In this paper, we study three notions of generalization ---increasing in strength--- that are robust to post-processing and amenable to adaptive composition, and examine the relationships between them. </p>
-
+    <p>Recent development in selective inference has provided a framework of valid inference
+after some information of the data has been used for model selection. However, most
+literature concerning selective inference require the practitioners to commit to a pre-specified
+procedure for model selection. This is rather stringent for applications. In
+many cases, multiple exploratory data analyses will be performed and the outcome of
+each will be input to the final model selected by the practitioners. Therefore, we want
+to develop a framework that allows multiple queries to the data. In a framework similar
+to that in differential privacy, we allow valid inference after multiple queries to the
+database. We seek to address this problem from the perspective of “multiple views of
+the data” and two concrete examples are considered below.</p>
+<P>Joint work with Jonathan Taylor.</P>
 </div>
 
-   	
-<div class="container" style="font-size:14pt">
-    <h2><a name="heller"></a>Ruth Heller (Tel Aviv University)</h2>
-    <h3>Inference following aggregate level hypothesis testing in large scale genomic data</h3>
 
-    <br>
 
-  <P>In many genomic applications, it is common to perform tests using aggregate-level statistics within naturally defined classes for powerful identification of signals. Following aggregate-level testing, it is naturally of interest to infer on the individual units that are within classes that contain signal. Failing to account for class selection will produce biased inference. We develop multiple testing procedures that allow rejection of individual level null hypotheses while controlling for conditional (familywise or false discovery) error rates.  We use simulation studies to illustrate validity and power of the proposed procedures in comparison to several possible alternatives. We illustrate the usefulness of our procedures in a natural application involving whole-genome expression quantitative trait loci (eQTL) analysis across 17 tissue types using data from The Cancer Genome Atlas (TCGA) Project.
-</P>
-
-<P>Joint work with Nilanjan Chatterjee, Abba Krieger, and Jianxin Shi.</P>
-
-</div>
   	
 <div class="container" style="font-size:14pt">
     <h2><a name="grunwald"></a>Peter Grunwald (CWI and Leiden University)</h2>
@@ -331,13 +371,12 @@ Here we propose an alternative test based on supermartingales - it has both a ga
 
     <br>
 
-  <P> 10:50-11:10. <i><b>Xiaoying Tian Harris</b> and Jonathan Taylor</i>. From Selective Inference to Adaptive Data Analysis </P>
-  <P> 11:10-11:20. <i><b>Ibrahim Alabdulmohsin</b></i>. On the Interplay between Information, Stability, and Generalization </P>
-  <P> 11:20-11:30. <i><b>Joshua Loftus</b></i>. Significance testing after cross-validation</P>
-  <P> 11:30-11:40. <i><b>Yu-Xiang Wang</b>, Jing Lei and Stephen E. Fienberg</i>. A Minimax Theory for Adaptive Data Analysis</P>
-  <P> 11:40-11:50. <i><b>Sam Elder</b></i>. Bayesian Adaptive Data Analysis Guarantees from Subgaussianity </P>
-  <P> 11:50-12:00. <i><b>Aaditya Ramdas</b>, ...</i>. TBA</P>
-  <P> 12:00-12:10. <i><b>Ryan Rogers</b>, Aaron Roth, Adam Smith and Om Thakkar</i>. Max-Information, Differential Privacy, and Post-Selection Hypothesis Testing </P>
+  <P> 10:50-11:00. <i><b>Ibrahim Alabdulmohsin</b></i>. On the Interplay between Information, Stability, and Generalization </P>
+  <P> 11:00-11:10. <i><b>Joshua Loftus</b></i>. Significance testing after cross-validation</P>
+  <P> 11:10-11:20. <i><b>Yu-Xiang Wang</b>, Jing Lei and Stephen E. Fienberg</i>. A Minimax Theory for Adaptive Data Analysis</P>
+  <P> 11:20-11:30. <i><b>Sam Elder</b></i>. Bayesian Adaptive Data Analysis Guarantees from Subgaussianity </P>
+  <P> 11:30-11:40. <i><b>Aaditya Ramdas</b>, ...</i>. TBA</P>
+  <P> 11:40-11:50. <i><b>Ryan Rogers</b>, Aaron Roth, Adam Smith and Om Thakkar</i>. Max-Information, Differential Privacy, and Post-Selection Hypothesis Testing </P>
 
 </div>
 
