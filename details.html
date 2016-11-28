@@ -247,7 +247,7 @@
 		</div>
         <div class="col-md-4">Peter Grunwald (CWI/Leiden U.)
 		</div>
-		<div class="col-md-6"><a href="#grunwald">An Adaptive Alternative to p-value-based testing</a>
+		<div class="col-md-6"><a href="#grunwald">Safe Testing: An Adaptive Alternative to p-value-based testing</a>
 		  <!-- Bootstrap core JavaScript
 		  <a class="btn btn-default btn-sm" href="slides/grunwald.pdf" role="button">Slides</a> -->
 		</div>
@@ -355,11 +355,11 @@ the data” and two concrete examples are considered below.</p>
   	
 <div class="container" style="font-size:14pt">
     <h2><a name="grunwald"></a>Peter Grunwald (CWI and Leiden University)</h2>
-    <h3>An Adaptive Alternative to p-value-based testing</h3>
+    <h3>Safe Testing: An Adaptive Alternative to p-value-based testing</h3>
 
     <br>
 
-  <P>Standard p-value based hypothesis testing is not at all adaptive: if our test result is promising but inclusive (say, p = 0.07) we cannot simply decide to gather a few more data points. While the latter practice is ubiquitous in science, it invalidates p-values and error guarantees.</P>
+  <P>Standard p-value based hypothesis testing is not at all adaptive: if our test result is promising but not conclusive (say, p = 0.07) we cannot simply decide to gather a few more data points. While the latter practice is ubiquitous in science, it invalidates p-values and error guarantees.</P>
   <P>
 Here we propose an alternative test based on supermartingales - it has both a gambling and a data compression interpretation. This method allows us to freely combine results from different tests by multiplication (which would be a mortal sin for p-values!), and avoids many other pitfalls of traditional testing as well. If the null hypothesis is simple (a singleton), it also has a Bayesian interpretation, and essentially coincides with a proposal by Vovk (1993) and Berger et al. (1994). Here we work out, for the first time, the case of composite null hypotheses, which allows us to formulate safe, nonasymptotic versions of the most popular tests such as the t-test and the chi square tests. Safe tests for composite H0 are not Bayesian, and initial experiments suggests that they can substantially outperform Bayesian tests (which for composite nulls are not adaptive in general).
 </P>
